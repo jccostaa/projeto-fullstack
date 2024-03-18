@@ -1,14 +1,14 @@
+import { SideBar } from "../../components/SideBar";
+import WhatsHappening from "../../components/WhatsHappening";
 import { PageContainer } from "./styles";
 
 
-function Profile() {
+export function Profile() {
   return (
     <PageContainer>
-      {/* <Sidebar />
-      <UserProfile />
-      <SessionWhatsHappening /> */}
+    <SideBar/>
+    // perfil aqui
+    <WhatsHappening/>
     </PageContainer>
   );
 }
-
-export default Profile;

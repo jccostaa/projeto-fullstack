@@ -1,13 +1,13 @@
 import { SideBar } from "../../components/SideBar";
-import { Timeline } from "../../components/Timeline";
+import { TimelineExplore } from "../../components/TimelineExplore";
 import WhatsHappening from "../../components/WhatsHappening";
-import { PageContainer } from "./styles";
+import { PageContainer } from "../Home/styles";
 
-export function Home(){
-    return (
+export function Explore(){
+    return(
         <PageContainer>
         <SideBar/>
-        <Timeline/>
+        <TimelineExplore/>
         <WhatsHappening/>
         </PageContainer>
     )
